@@ -1,6 +1,6 @@
 import  { Notification } from "@domain/notification/application/entities/notification";
 
-export class NotificationPresenter {
+export class NotificationViewModel {
   static httpTo(notification: Notification) {
     return {
       id: notification.id,
